@@ -1,0 +1,27 @@
+
+Q1. Create a Java program to manage student information using a menu-driven approach.
+
+Create a class named Student with the following data members:
+
+int rollNo;
+String name;
+double marks;
+
+Implement the following methods in the Student class:
+
+acceptData() – Accept student details from the user.
+displayData() – Display student details.
+calculateGrade() – Calculate and display the grade based on the student's marks.
+Grade Criteria
+Marks	Grade
+75 and above	A
+60 to 74	B
+50 to 59	C
+Below 50	Fail
+
+ 
+Q2. Display food menu to user. User will select items from menu along with the quantity. (eg 1.
+Dosa 2. Samosa 3. Idli 4 . Generate Bill ) Assign fixed prices to food items(hard code the prices)
+When user enters 'Generate Bill' option , display total bill & exit.
+
+ 
