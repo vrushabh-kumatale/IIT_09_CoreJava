@@ -1,0 +1,66 @@
+Question No 1:
+
+Employee Class
+
+Create a class Employee with:
+
+Employee ID
+Employee Name
+Salary
+
+Use a constructor to initialize all values.
+
+Create an object and display employee information.
+
+
+Question 2:
+ Inheritance
+
+Create a class Employee with the following:
+
+Instance variable: name
+Method: displayEmployee()
+
+Create a child class Manager that inherits Employee.
+
+Instance variable: department
+Method: displayManager()
+
+In the main() method:
+ 
+ create object
+
+Question 3:
+
+ Method Overloading
+Create a class Calculator.
+
+Overload the method multiply():
+
+Multiply two integers.
+Multiply three integers.
+Multiply two double values.
+
+Call all overloaded methods from main().
+
+
+
+Question: 4  (Override)
+Create a parent class Animal.
+
+void sound()
+
+Print:
+
+Animal makes sound
+
+Create a child class Dog.
+
+Override sound() method and print:
+
+Dog barks
+
+Create object and call the method.
+
+
+
