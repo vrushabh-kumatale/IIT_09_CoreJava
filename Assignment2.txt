@@ -24,4 +24,12 @@ Q2. Display food menu to user. User will select items from menu along with the q
 Dosa 2. Samosa 3. Idli 4 . Generate Bill ) Assign fixed prices to food items(hard code the prices)
 When user enters 'Generate Bill' option , display total bill & exit.
 
+3. Write a class Cylinder to find volume of a Cylinder by using
+fields radius, height.
+(volume of Cylinder=3.14 * radius * radius *height)
+Class having following methods:
+Cylinder(), Cylinder(double radius, double height), getRadius(), setRadius(), getHeight(),
+setHeight(), getVolume(), printVolume()
+Initialize data members using constructor member initializer list.
+
  

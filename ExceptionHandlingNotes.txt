@@ -1,0 +1,60 @@
+Exception Handling in Java
+Exception Handling is used to handle runtime errors so that the program does not terminate unexpectedly.
+
+Types of Exceptions in Java
+1.
+Checked Exceptions in Java
+
+Checked exceptions are exceptions that are checked by the compiler at compile time. If a method can throw a checked exception, it must be either handled using a try-catch block or declared using the throws keyword.
+
+Derived from the Exception class (excluding RuntimeException and its subclasses).
+Help ensure that exceptional conditions are anticipated and handled properly.
+Common examples include IOException, SQLException, and ClassNotFoundException.
+
+Commonly Occurred Checked Exceptions
+IOException  Occurs when an input/output operation fails, such as reading from or writing to a file.
+SQLException : Occurs when there is an error while interacting with a database.
+ClassNotFoundException : Thrown when the JVM cannot find a specified class at runtime.
+FileNotFoundException : Occurs when a program attempts to access a file that does not exist.
+
+2.
+Unchecked Exceptions in Java
+Unchecked exceptions are exceptions that are not checked by the compiler at compile time. They occur during program execution and usually result from programming errors or incorrect logic.
+
+They are subclasses of RuntimeException.
+Handling them is optional and not enforced by the compiler.
+Common examples include NullPointerException, ArithmeticException, and ArrayIndexOutOfBoundsException.
+
+Commonly Occurred Unchecked Exceptions:
+NullPointerException : Occurs when attempting to access a method or field on a null reference.
+ArithmeticException : Thrown for illegal arithmetic operations, such as division by zero.
+ArrayIndexOutOfBoundsException : Occurs when accessing an array with an invalid index.
+StringIndexOutOfBoundsException : Thrown when a string is accessed using an invalid index.
+NumberFormatException : Occurs when converting an invalid string to a numeric type.
+
+
+try-with-resource
+
+Try-with-resources is used to automatically close resources such as files, database connections, streams, and sockets. It prevents resource leaks, reduces code, and ensures resources are closed even when exceptions occur.
+
+Without try-with-resources:
+
+Connection con = null;
+
+try {
+    con = DriverManager.getConnection(url, user, pass);
+} finally {
+    if (con != null)
+        con.close();
+}
+
+
+With try-with-resources:
+
+try (Connection con =
+         DriverManager.getConnection(url, user, pass)) {
+
+    System.out.println("Connected");
+}
+
+Java automatically closes the connection.

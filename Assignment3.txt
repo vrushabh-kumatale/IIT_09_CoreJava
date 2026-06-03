@@ -1,0 +1,27 @@
+1. Create a Java program that accepts two integers from the user and performs division.
+
+Requirements:
+
+Accept numerator and denominator from the user.
+Perform division and display the result.
+Handle ArithmeticException if the user enters 0 as the denominator.
+Display a user-friendly error message.
+
+Concepts Covered:
+
+Unchecked Exception
+ArithmeticException
+try-catch
+
+
+2. Define a new exception, called ExceptionLineTooLong, that prints out the error message "The
+strings is too long" Write a program that reads a String from user and calculates its length and throws
+an exception of type ExceptionLineTooLong in the case where a string of length is more than 80
+characters
+
+
+3.Create a program to accept a student's age.
+Requirements
+If age is less than 18, throw a custom exception named InvalidAgeException.
+Handle the exception using try-catch.
+Display:
