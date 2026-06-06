@@ -1,0 +1,35 @@
+Develop a Java application Student and Department Management System using the Java
+Collection Framework. Requirements:
+
+1. The system should maintain the list of departments using:
+Set<Department> departments = new HashSet<>();
+
+Duplicate departments should not be allowed based on Department ID.
+
+2. The system should maintain the list of students in admission order using:
+List<Student> students = new LinkedList<>();
+
+3. The system should maintain student records for quick searching using:
+Map<Integer, Student> studentMap = new HashMap<>();
+
+Key = Roll Number, Value = Student Object.
+
+Department
+• deptId
+• deptName
+
+Student
+• rollNo
+• name
+• marks
+• Department department
+
+
+1. Add Department
+2. Display Departments
+3. Add Student
+4. Display Students
+5. Search Student by Roll Number
+6. Update Student Details
+7. Delete Student by Roll Number
+8. Display Students Department-wise
