@@ -1,0 +1,22 @@
+Develop a student Management System in Java using JDBC and MySQL that provides Sign Up, Sign In, and CRUD operations.
+
+
+
+1. student Registration (Sign Up)
+2. student login
+3.CURD opration on student
+
+Allow a user to register by entering:
+
+Name
+Email
+Password
+
+
+Create custom exceptions:
+
+AuthenticationFailedException 
+ // If the user enters:   Wrong email  Wrong password Both email and password incorrect   then AuthenticationFailedException can be thrown.
+
+InvalidInputException     //Thrown when user enters invalid data.
+
