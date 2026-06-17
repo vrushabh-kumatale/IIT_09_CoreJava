@@ -1,0 +1,20 @@
+HomeFrame
+│
+├── AdminLoginFrame
+│      │
+│      └── AdminDashboardFrame
+│               ├── CreateQuizPanel
+│               ├── ListQuizPanel
+│               ├── ViewResultPanel
+│               └── DeleteQuizPanel
+│
+├── StudentRegisterFrame
+│      │
+│      └── StudentLoginFrame
+│
+└── StudentLoginFrame
+       │
+       └── StudentDashboardFrame
+                ├── ViewQuizPanel
+                ├── TakeQuizPanel
+                └── ViewScorePanel
