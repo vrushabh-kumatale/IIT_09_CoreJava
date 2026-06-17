@@ -1,0 +1,81 @@
+
+Assignment 1: Registration Form Using Java Swing
+Title
+
+Design and Implement a Student Registration Form Using Java Swing
+
+Develop a Java Swing application that allows users to register by entering personal details.
+
+The registration form should collect:
+
+FDevelop a Java Swing application that allows users to register by entering personal details.
+
+The registration form should collect:
+
+Full Name
+Email ID
+Mobile Number
+Gender
+Address
+Username
+Password
+
+When the user clicks the Register button:
+
+Validate all mandatory fields.
+Display the entered information in a dialog box or text area.
+Show a registration success message.
+
+Provide a Clear button to reset all fields.
+
+Functional Requirements
+All mandatory fields must be filled.
+Email should contain '@'.
+Mobile Number should contain exactly 10 digits.
+Password should contain at least 8 characters.
+Display registration success message after validation
+Email ID
+Username
+Password
+
+When the user clicks the Register button:
+
+Validate all mandatory fields.
+Display the entered information in a dialog box or text area.
+Show a registration success message.
+
+Provide a Clear button to reset all fields.
+
+Functional Requirements
+All mandatory fields must be filled.
+Email should contain '@'.
+Mobile Number should contain exactly 10 digits.
+Password should contain at least 8 characters.
+Display registration success message after validation
+
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
+Assignment 2: Login Form Using Java Swing
+Title
+
+Design and Implement a Login Form Using Java Swing
+
+create a Java Swing application that provides a Login Form for user authentication.
+
+The application should allow a user to enter:
+
+Username
+Password
+
+Upon clicking the Login button:
+
+Validate the entered credentials against predefined values.
+Display a success message if the credentials are correct.
+Display an error message if the credentials are incorrect.
+
+Provide a Reset button to clear all input fields.
+
+
