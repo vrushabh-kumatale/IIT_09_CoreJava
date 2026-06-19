@@ -1,0 +1,3 @@
+Create a Java Swing application that allows an   import MCQ questions from a text file into the database.
+
+Create a feature to calculate and display a  score after completing an online test.
